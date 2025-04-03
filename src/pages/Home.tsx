@@ -13,8 +13,6 @@ import { Link } from "react-router-dom";
 import { Car, BookOpen, CheckCircle } from "lucide-react";
 
 
-
-
 const Home: React.FC = () => {
   const navigate = useNavigate();
 
