@@ -1,8 +1,6 @@
 // App.tsx
 
 import React, { useEffect, useState } from "react";
-import { auth } from "./firebaseConfig";  // Import Firebase Auth
-import { onAuthStateChanged } from "firebase/auth";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";  // Import Navbar
 import Footer from "./components/Footer";
@@ -32,7 +30,7 @@ const App: React.FC = () => {
   const [recommendedCourses, setRecommendedCourses] = useState<string[]>([]);
   const [user, setUser] = useState<any>(null); // State for tracking user authentication
 
-  useEffect(() => {
+  {/*useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user); // User is logged in, update state
@@ -44,7 +42,7 @@ const App: React.FC = () => {
     });
 
     return () => unsubscribe(); // Clean up listener when the component is unmounted
-  }, []);
+  }, []);*/}
 
   const handleCloseModal = () => setIsModalOpen(false);
   const handleCloseRecommendationModal = () => setIsRecommendationModalOpen(false);

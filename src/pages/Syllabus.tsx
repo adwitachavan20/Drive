@@ -26,13 +26,6 @@ const Syllabus: React.FC = () => {
       image: "/images/Perpendicular.png",
     },
     {
-      title: "10 Practices That Make You a Safer Driver",
-      description:
-        "Although the 2020 lockdown resulted in a 49.47% fall in the number of lives lost in road accidents, safe driving habits matter.",
-      link: "/SaferDrivingPractices",
-      image: "/images/safer-driving.png",
-    },
-    {
       title: "5 Car Driving Tips That Make You a Better Driver",
       description:
         "There’s no age for learning, and the scope of learning is infinite. When it comes to driving, follow these 5 expert tips.",

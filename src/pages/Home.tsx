@@ -11,7 +11,6 @@ import BookingForm from "./book";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Car, BookOpen, CheckCircle } from "lucide-react";
-import { app } from "../firebaseConfig"; 
 
 
 
@@ -83,7 +82,7 @@ const Home: React.FC = () => {
   transition={{ duration: 1.2 }}
 >
 <h1 className="text-5xl font-bold leading-tight mb-6 font-serif tracking-wide pl-4 md:pl-8 -mt-4">
-      <span className="block text-[#121829]">Drive with</span>
+      <span className="block text-[#121829]">Drive</span>
       <span className="block text-[#121829]">Confidence</span>
     </h1>
   <p className="text-lg text-[#001730]/80 mb-8 leading-relaxed font-light pl-4 md:pl-8">
